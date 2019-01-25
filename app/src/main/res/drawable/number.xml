@@ -5,7 +5,7 @@
             <gradient android:angle="90" android:endColor="#FFFFFF" android:startColor="#9EB8FF" android:type="linear" />
             <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
             <size android:width="@dimen/_60sdp" android:height="@dimen/_50sdp" />
-            <stroke android:width="1dp" android:color="#ff3da6ef" />
+            <stroke android:width="1dp" android:color="#3da6ef" />
         </shape>
     </item>
     <item>
@@ -13,7 +13,7 @@
             <gradient android:angle="90" android:endColor="#FFFFFF" android:startColor="#d9d9d9" android:type="linear" />
             <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
             <size android:width="@dimen/_60sdp" android:height="@dimen/_50sdp" />
-            <stroke android:width="0.5dp" android:color="#ffcecece" />
+            <stroke android:width="0.5dp" android:color="#cecece" />
         </shape>
     </item>
 </selector>
