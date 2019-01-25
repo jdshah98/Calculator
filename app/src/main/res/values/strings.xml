@@ -23,4 +23,9 @@
     <string name="error">ERROR</string>
     <string name="undefined">Result is undefined</string>
     <string name="divideByZero">Cannot Divide By Zero</string>
+    <string name="about_us">About Us</string>
+    <string name="about_heading">ABOUT US</string>
+    <string name="visit_us">visit us</string>
+    <string name="website">www.jdshah.com</string>
+    <string name="emailID">shahjainamj8657@gmail.com</string>
 </resources>
