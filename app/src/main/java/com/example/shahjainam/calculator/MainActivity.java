@@ -17,7 +17,7 @@ import static java.lang.Boolean.TRUE;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView result;
+    private TextView result, exp;
     private Button equal, back, clear, dot;
     private Boolean resultState = TRUE, newTerm = FALSE, errorState = FALSE, dotFlag = FALSE;
 
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initialize() {
+        exp = findViewById(R.id.expression);
         result = findViewById(R.id.result);
         equal = findViewById(R.id.equal);
         back = findViewById(R.id.back);
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String str = result.getText().toString();
+                exp.setText(str);
                 try{
                     Expression expression = new ExpressionBuilder(str).build();
                     double ans = expression.evaluate();

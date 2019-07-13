@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="btnText">35sp</dimen>
-    <dimen name="ansSize">30sp</dimen>
+    <dimen name="ansSize">24sp</dimen>
+    <dimen name="expSize">20sp</dimen>
 </resources>

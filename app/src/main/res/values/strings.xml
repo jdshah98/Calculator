@@ -28,4 +28,7 @@
     <string name="visit_us">visit us</string>
     <string name="website">www.jdshah.com</string>
     <string name="emailID">shahjainamj8657@gmail.com</string>
+    <string name="logo">logo</string>
+    <string name="calculator">CALCULATOR</string>
+    <string name="appDescription">Version 1.0\nCopyright(c) JS APP 2019.\nAll rights reserved.</string>
 </resources>
