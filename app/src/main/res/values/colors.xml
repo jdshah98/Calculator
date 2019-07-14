@@ -6,4 +6,5 @@
     <color name="colorBlack">#000000</color>
     <color name="btnColor">#eeeeee</color>
     <color name="textViewColor">#f8f8f8</color>
+    <color name="colorGray">#777777</color>
 </resources>

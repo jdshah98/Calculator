@@ -18,7 +18,7 @@
         android:gravity="bottom|end"
         android:padding="@dimen/_5sdp"
         android:text=""
-        android:textColor="@color/colorBlack"
+        android:textColor="@color/colorGray"
         android:textIsSelectable="false"
         android:textSize="@dimen/expSize" />
 
