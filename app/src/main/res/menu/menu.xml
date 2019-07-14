@@ -2,10 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".CalculatorActivity">
 
     <item android:id="@+id/about"
         app:showAsAction="never"
         android:title="@string/about_us" />
+
+    <item android:id="@+id/history"
+        app:showAsAction="never"
+        android:title="@string/history" />
 
 </menu>

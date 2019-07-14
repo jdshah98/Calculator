@@ -3,6 +3,7 @@ package com.example.shahjainam.calculator;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,7 +15,7 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
-public class MainActivity extends AppCompatActivity {
+public class CalculatorActivity extends AppCompatActivity {
 
     private TextView result, exp;
     private Button equal, back, clear, dot;
@@ -61,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 } finally {
                     resultState = TRUE;
                 }
+                SaveHistoryPreference.setExp(CalculatorActivity.this,exp.getText().toString());
+                SaveHistoryPreference.setExp(CalculatorActivity.this,"=" + result.getText().toString());
             }
         });
 
@@ -225,8 +228,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu,menu);
+    public boolean onCreateOptionsMenu(Menu menu1) {
+        getMenuInflater().inflate(R.menu.menu,menu1);
         return true;
     }
 
@@ -234,7 +237,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.about:
-                startActivity(new Intent(MainActivity.this,AboutActivity.class));
+                startActivity(new Intent(CalculatorActivity.this,AboutActivity.class));
+                break;
+            case R.id.history:
+                startActivity(new Intent(CalculatorActivity.this,HistoryActivity.class));
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

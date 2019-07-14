@@ -3,7 +3,9 @@
     <string name="clear">C</string>
     <string name="divide">/</string>
     <string name="multiply">*</string>
-    <string name="back"><![CDATA[<-]]></string>
+    <string name="back"><![CDATA[
+        <-
+        ]]></string>
     <string name="seven">7</string>
     <string name="eight">8</string>
     <string name="nine">9</string>
@@ -31,4 +33,6 @@
     <string name="logo">logo</string>
     <string name="calculator">CALCULATOR</string>
     <string name="appDescription">Version 1.0\nCopyright(c) JS APP 2019.\nAll rights reserved.</string>
+    <string name="history">History</string>
+    <string name="clear_history">Clear History</string>
 </resources>
